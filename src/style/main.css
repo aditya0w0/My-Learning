@@ -1,66 +1,65 @@
 /* Reset Default */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Body Styling */
 body {
-  font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 /* Navbar Styling */
 .nav-links {
-  display: flex;
-  align-items: center;
-  gap: 1rem; /* Jarak antar elemen */
-  justify-content: center;
-  list-style: none;
-  color: rgb(251, 251, 251); /* Warna teks putih */
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Jarak antar elemen */
+    justify-content: center;
+    list-style: none;
+    color: rgb(251, 251, 251); /* Warna teks putih */
 }
 
 .nav-links a {
-  color: #fff; /* Warna link putih */
-  text-decoration: none;
+    color: #fff; /* Warna link putih */
+    text-decoration: none;
 }
 
 .nav-links a:hover {
-  color: rgb(203, 96, 96); /* Warna link saat hover */
+    color: rgb(203, 96, 96); /* Warna link saat hover */
 }
 
 /* Header Styling */
 .header {
-  padding: 1rem 2rem;
-  background-color: rgb(63, 136, 208); /* Warna biru */
-  backdrop-filter: blur(20px); /* Efek blur */
+    padding: 1rem 2rem;
+    background-color: rgb(63, 136, 208); /* Warna biru */
+    backdrop-filter: blur(20px); /* Efek blur */
 }
 
 /* Hero Section Styling */
 #hero {
-  padding: 100px 0px;
-  background-image: url(../images/hero.jpg);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
+    padding: 100px 0px;
+    background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
 }
 
 #hero h1 {
-  font-size: 1rem;
-  font-weight: 700;
-  color: rgb(251, 251, 251); /* Warna teks putih */
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(251, 251, 251); /* Warna teks putih */
 }
 
 #hero p {
-  font-size: 1rem;
-  font-weight: 400;
-  color: rgb(251, 251, 251); /* Warna teks putih */
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(251, 251, 251); /* Warna teks putih */
 }
 
 /* Hero Container */
 .hero-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
